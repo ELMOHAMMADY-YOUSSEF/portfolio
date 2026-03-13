@@ -7,7 +7,9 @@ import {
 
 import boogyImg from './assets/boogy.jpg';
 import quickLivraisonImg from './assets/quick-livraison.jpg';
+import carefleet from './assets/carefleet.png'
 import peintureImg from './assets/peintureImg.jpg';
+
 
 const App = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -76,6 +78,15 @@ const App = () => {
     },
     {
       id: 3,
+      title: "Carefleet",
+      description: "Application de location de voitures et suivi de maintenance, développé avec JavaScript, LocalStorage, Vite et Chart.js.",
+      longDescription: "Carefleet est une plateforme dédiée à la location de véhicules et au suivi de leur maintenance. Il a été entièrement développé en utilisant JavaScript, LocalStorage et Vite. J'y ai également intégré la bibliothèque Chart.js pour la gestion et l'affichage des données.",
+      videoUrl: "https://www.youtube.com/embed/kDMraZt8DEs", 
+      image: carefleet,
+      github: "https://github.com/ELMOHAMMADY-YOUSSEF/care_fleet.git" 
+    },
+    {
+      id: 4,
       title: "Gestion Peintures",
       description: "Application CRUD pour la gestion d'inventaire de peintures avec Symfony.",
       longDescription: "Un projet backend réalisé avec le framework Symfony pour maîtriser les opérations fondamentales CRUD (Create, Read, Update, Delete). L'application permet de gérer une base de données de peintures, d'ajouter des œuvres, de modifier leurs détails et de les supprimer, avec une interface générée via Twig.",
